@@ -1,0 +1,35 @@
+{
+  "name": "vue-react",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "serve": "vue-cli-service serve --openssl-legacy-provider"
+  },
+  "dependencies": {
+    "formik": "^2.2.9",
+    "isotope-layout": "^3.0.6",
+    "moment": "^2.29.1",
+    "next": "11.1.0",
+    "react": "17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "17.0.2",
+    "react-hot-toast": "^2.1.1",
+    "react-input-range": "^1.3.0",
+    "react-redux": "^7.2.4",
+    "react-slick": "^0.28.1",
+    "redux": "^4.1.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "webpack": "^5.87.0",
+    "wowjs": "^1.1.3",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.0"
+  }
+}

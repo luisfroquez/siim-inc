@@ -1,0 +1,27 @@
+[
+  {
+    "icon": "/img/instagram/axe.svg",
+    "text": "Free Delivery",
+    "title": "Ferreteria"
+  },
+  {
+    "icon": "/img/instagram/extintor.svg",
+    "text": "100% CUSTOMER",
+    "title": "Extinción de Incendios"
+  },
+  {
+    "icon": "/img/instagram/elec.svg",
+    "text": "10 DAYS",
+    "title": "Electrónica"
+  },
+  {
+    "icon": "/img/instagram/alarm.svg",
+    "text": "PAYMENT",
+    "title": "Detección de Incendios"
+  },
+  {
+    "icon": "/img/instagram/electricidad.svg",
+    "text": "24/7",
+    "title": "Electricidad"
+  }
+]

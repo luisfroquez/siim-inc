@@ -1,0 +1,41 @@
+{
+  "banner": {
+    "one": {
+      "img": "/img/banner/banner-2/bannerNuevo2.png",
+      "subTitle": "Siim",
+      "title": "Servicios integrales de ingeneria y montajes",
+      "link": "Más información"
+    },
+    "two": {
+      "img": "/img/banner/banner-2/bannerNuevo1.png",
+      "subTitle": "Siim Distribuidora",
+      "title": "Visita nuestra Distribuidora SIIM",
+      "text": "",
+      "link": "ir a Distribuidora Siim"
+    }
+  },
+  "imageSlider": [
+    "/img/instagram/post1.png",
+    "/img/instagram/post89.png",
+    "/img/instagram/post500.png",
+    "/img/instagram/post1000.png",
+    "/img/instagram/post3000.png",
+    "/img/instagram/post2023.png"
+  ],
+  "sliders": [
+    {
+      "bg": "/img/slider/BGslidersPagina1.png",
+      "shapImg": "/img/slider/shape-icon-2.png",
+      "heading": "Distribuidora de materiales y equipos",
+      "shopLink": true,
+      "categoryLink": true
+    },
+    {
+      "bg": "/img/slider/siimBg.png",
+      "shapImg": "/img/slider/shape-icon-2.png",
+      "heading": "Servicios Integrales De Ingeneria y Montajes",
+      "shopLink": true,
+      "categoryLink": true
+    }   
+  ]
+}

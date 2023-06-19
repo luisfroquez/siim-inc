@@ -1,0 +1,28 @@
+{
+  "sliders": [
+    {
+      "bannerImg": "/img/slider/slide3.jpg",
+      "title": "UX",
+      "subTitle": "winter Collection",
+      "thumb": "/img/slider/slide-thumb.png",
+      "shopLink": true,
+      "productName": "Winter"
+    },
+    {
+      "bannerImg": "/img/slider/slide3-2.jpg",
+      "title": "UX",
+      "subTitle": "winter Collection",
+      "thumb": "/img/slider/slide-thumb-2.png",
+      "shopLink": true,
+      "productName": "Winter"
+    },
+    {
+      "bannerImg": "/img/slider/slide3-3.jpg",
+      "title": "UX",
+      "subTitle": "winter Collection",
+      "thumb": "/img/slider/slide-thumb-3.png",
+      "shopLink": true,
+      "productName": "Winter"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "banner": {
+    "one": {
+      "img": "/img/banner/banner-2/banner1.jpg",
+      "subTitle": "Trendy Item",
+      "title": "New Year Trend Coming ",
+      "link": "discover"
+    },
+    "two": {
+      "img": "/img/banner/banner-2/banner2.jpg",
+      "subTitle": "Get the look",
+      "title": "Festive Looks",
+      "text": "Your delivery of outfit ideas, updated daily",
+      "link": "discover",
+      "lookImg": "/img/icon/look.png"
+    }
+  },
+  "sliders": [
+    {
+      "year": "2019",
+      "title": "New Arrivals",
+      "subTitle": "Women Collection",
+      "price": "98.00",
+      "discount": "12",
+      "bannerImg": "/img/slider/slide2-1.jpg",
+      "shapImg": "/img/slider/shape-icon.png",
+      "shopLink": true,
+      "categoryLink": true
+    },
+    {
+      "year": "2019",
+      "title": "Women Product",
+      "subTitle": "Women Collection",
+      "price": "98.00",
+      "discount": "12",
+      "bannerImg": "/img/slider/slide2-2.jpg",
+      "shapImg": "/img/slider/shape-icon.png",
+      "shopLink": true,
+      "categoryLink": true
+    },
+    {
+      "year": "2019",
+      "title": "Trend Collection",
+      "subTitle": "Women Collection",
+      "price": "98.00",
+      "discount": "12",
+      "bannerImg": "/img/slider/slide2-3.jpg",
+      "shapImg": "/img/slider/shape-icon.png",
+      "shopLink": true,
+      "categoryLink": true
+    }
+  ]
+}

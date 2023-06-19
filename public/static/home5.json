@@ -1,0 +1,19 @@
+{
+  "sliders": [
+    {
+      "bg": "/img/slider/slide6-3.jpg",
+      "title": "Winter Is Coming",
+      "subTitle": "winter Collection"
+    },
+    {
+      "bg": "/img/slider/slide6-2.jpg",
+      "title": "Winter Is Coming",
+      "subTitle": "winter Collection"
+    },
+    {
+      "bg": "/img/slider/slide6.jpg",
+      "title": "Winter Is Coming",
+      "subTitle": "winter Collection"
+    }
+  ]
+}
