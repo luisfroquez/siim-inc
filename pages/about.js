@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Slider from "react-slick";
+/* import Slider from "react-slick"; */
 import VideoPopUp from "../src/components/VideoPopUp";
 import Layout from "../src/layouts/Layout";
 import PageTitle from "../src/layouts/PageTitle";
@@ -15,7 +15,7 @@ const About = () => {
     slidesToScroll: 1,
   };
   return (
-    <Layout sticky footerBg textCenter container>
+    <Layout sticky footerBg textCenter container transparent  whiteMenu>
       <main>
         <PageTitle pageHeading="SIIM" active="Nosotros" />
         {popup && <VideoPopUp closePopup={() => setPopup(false)} />}
@@ -122,39 +122,7 @@ const About = () => {
             </div>
           </div>
         </section>
-       {/*  <section className="big-team-area">
-          <div className="big-image">
-            <img src="img/bg/banner22.png" alt="Banner" />
-          </div>
-          <div className="container">
-            <div className="row">
-              <div className="col-12">
-                <div className="testimonial-active owl-carousel theme-bg">
-                  <Slider {...settings}>
-                    <div className="testimonial-item text-center">
-                      <p>
-                        “Vue is one of those platforms that gives you space to
-                        work with people who know you, love you, and support
-                        you.”
-                      </p>
-                      <span>- Salim Rana</span>
-                    </div>
-                    <div className="testimonial-item text-center">
-                      <p>
-                        “Vue is one of those platforms that gives you space to
-                        work with people who know you, love you, and support
-                        you.”
-                      </p>
-                      <span>- Jason Derula</span>
-                    </div>
-                  </Slider>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> */}
-        {/* team-area start */}
-
+       
         <section className="team-area pt-100 pb-70">
           <div className="container">
             <div className="row">

@@ -2,7 +2,7 @@ import Layout from "../src/layouts/Layout";
 import PageTitle from "../src/layouts/PageTitle";
 const Contact = () => {
   return (
-    <Layout sticky>
+    <Layout footerBg container textCenter >
       <main>
         <PageTitle active="Contacto" pageHeading="Contáctanos" />
 

@@ -180,6 +180,10 @@
 
 @media (min-width: 992px) and (max-width: 1200px) {
 
+	.logoLanding{
+		width: 250px;
+	}	
+
 .box-90 {
 
 	padding-left: 30px;
@@ -527,6 +531,10 @@
 /* Tablet desktop :768px. */
 
 @media (min-width: 768px) and (max-width: 991px) {	
+
+	.logoLanding{
+		width: 210px;
+	}
 
 .box-90 {
 
@@ -880,6 +888,10 @@
 
 .logo{
 	width: 130px;
+}
+
+.logoLanding{
+	width: 210px;
 }
 
 .box-90 {

@@ -26,8 +26,8 @@ const Shop = ({
   }, []);
 
   return (
-    <Layout footerBg container textCenter transparent
-    whiteMenu
+    <Layout footerBg container textCenter /* transparent
+    whiteMenu */
     extraTransparentClass={"transparent-header-2"}>  {/* sticky  */}
       <main>
         <PageTitle active="Tienda SIIM" pageHeading="Nuestra Tienda" />

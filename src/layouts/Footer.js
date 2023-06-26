@@ -73,19 +73,19 @@ const Footer = ({ container, footerBg, textCenter }) => {
                   <h3>Menu</h3>
                   <ul className="footer-link">
                     <li>
-                      <a href="#" onClick={(e) => e.preventDefault()}>
+                      <Link href="/homeSiim" onClick={(e) => e.preventDefault()}>
                         Inicio
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" onClick={(e) => e.preventDefault()}>
-                        Quienes somos
-                      </a>
+                      <Link href="/about" onClick={(e) => e.preventDefault()}>
+                        Siim
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" onClick={(e) => e.preventDefault()}>
+                      <Link href="/shop/col-3" onClick={(e) => e.preventDefault()}>
                         Distribuidora SIIM
-                      </a>
+                      </Link>
                     </li>
                     <li>
                       <a href="#" onClick={(e) => e.preventDefault()}>

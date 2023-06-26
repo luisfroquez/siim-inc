@@ -13,6 +13,21 @@ html {
   transition: max-height 0.5s ease-out;
 }
 
+.backingImge{
+  background-image: url(../img/bg/tuberia.png);
+  background-size:cover;
+  background-position: 50% 50%;
+  height: 985px;
+}
+
+.backingRoof{
+  background-image: url(../img/bg/roofTop.png);
+  background-size:cover;
+  background-position: 30% 50%;
+  height: 985px;
+}
+
+
 .block.category-menu,
 .block.mobile-header,
 .mobile-header .block.submenu {

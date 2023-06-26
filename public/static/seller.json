@@ -1,13 +1,12 @@
 {
   "topSellers": [
     {
-      "name": "Xcross Comoer Furniture",
-      "banner": "/img/banner/top-seller/banner2.jpg",
+      "name": "DISTRIBUIDORA DE MATERIALES Y EQUIPOS",
+      "banner": "/img/logo/logoAzulSiim.png",
+      "img": "/img/banner/banner-2/bannerNuevo2.png",
       "topProduct": {
-        "name": "Minimal Home Decor",
-        "img": "/img/banner/top-seller/banner1.jpg",
-        "price": "230.00",
-        "discount": "10"
+        "name": "SERVICIOS INTEGRALES DE INGENIERIA Y MONTAJES",
+        "img": "/img/logo/logoSIIM.png "
       }
     }
   ]

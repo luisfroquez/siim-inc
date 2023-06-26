@@ -30,7 +30,7 @@ const Catagory = ({ whiteMenu }) => {
           <a>
             <img
               src={
-                whiteMenu ? "/img/logo/logoSIIM.png" : "/img/logo/logoSIIM.png"
+                whiteMenu ? "/img/logo/logoSIIM.png" : "/img/logo/logoAzulSiim.png"
               }
               alt="Logo"
               width={215}

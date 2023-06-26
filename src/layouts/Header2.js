@@ -18,7 +18,7 @@ const Header2 = () => {
               <div className="logo text-left text-md-center">
                 <Link href="/shop">
                   <a>
-                    <img src="img/logo/logo.svg" alt="img" />  {/*  width={90}  */}
+                    <img src="img/logo/logoAzulSiim.png" alt="img" />  {/*  width={90}  */}
                   </a>
                 </Link>
               </div>
