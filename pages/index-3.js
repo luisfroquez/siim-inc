@@ -69,7 +69,7 @@ const Index3 = ({
                               {slide.name} {new Date().getFullYear()}
                             </h1>
                             <div className="slide-btn">
-                              <Link href="/shop">
+                              <Link legacyBehavior href="/shop">
                                 <a
                                   className="btn theme-btn"
                                   data-animation="fadeInLeft"

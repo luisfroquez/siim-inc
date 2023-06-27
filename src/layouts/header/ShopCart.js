@@ -21,7 +21,7 @@ const ShopCart = ({ removeCart, getCarts }) => {
           carts.map((cart) => (
             <li key={cart.id}>
               <div className="cart-img">
-                <Link href={`/shop/${cart.id}`}>
+                <Link legacyBehavior href={`/shop/${cart.id}`}>
                   <a>
                     <img src={cart.img1} alt="Cart" />
                   </a>
@@ -29,7 +29,7 @@ const ShopCart = ({ removeCart, getCarts }) => {
               </div>
               <div className="cart-content">
                 <h3>
-                  <Link href={`/shop/${cart.id}`}>{cart.name}</Link>
+                  <Link legacyBehavior href={`/shop/${cart.id}`}>{cart.name}</Link>
                 </h3>
                 <div className="cart-price">
                   <span className="new">
@@ -64,8 +64,8 @@ const ShopCart = ({ removeCart, getCarts }) => {
         </li>
         <li>
           <div className="checkout-link">
-            <Link href="/cart">Productos compra</Link>
-            <Link href="/checkout">
+            <Link legacyBehavior href="/cart">Productos compra</Link>
+            <Link legacyBehavior href="/checkout">
               <a className="red-color">Ir a Checkout</a>
             </Link>
           </div>

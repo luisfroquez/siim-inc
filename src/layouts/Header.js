@@ -44,7 +44,7 @@ const Header = ({
                 <ul>
                   <SearchTrigger />
                  {/*  <li className="login-btn">
-                    <Link href="/login">
+                    <Link legacyBehavior href="/login">
                       <a>
                         <i className="far fa-user" />
                       </a>

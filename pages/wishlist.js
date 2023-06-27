@@ -59,7 +59,7 @@ const Wishlist = ({ getWishlist, addToCart, addWishlist }) => {
                                   </span>
                                 </td>
                                 <td className="product-quantity">
-                                  <Link href="#">
+                                  <Link legacyBehavior href="#">
                                     <a
                                       className="btn theme-btn-2"
                                       onClick={(e) => {

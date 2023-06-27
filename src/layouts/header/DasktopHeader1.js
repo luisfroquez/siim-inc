@@ -5,24 +5,24 @@ const DasktopHeader = ({ whiteMenu }) => {
       <nav id="mobile-menu">
         <ul>
           <li>
-            <Link href="/homeSiim">
+            <Link legacyBehavior href="/homeSiim">
               <a>Inicio</a>
             </Link>
             
           </li>
           <li className="mega-menu">
-            <Link href="/shop/col-3">Distribuidora</Link>
+            <Link legacyBehavior href="/shop/col-3">Distribuidora</Link>
            
           </li>
           
           <li>
-            <Link href="/about" onClick={(e) => e.preventDefault()}>
+            <Link legacyBehavior href="/about" onClick={(e) => e.preventDefault()}>
               Siim
             </Link>
           
           </li>
           <li>
-            <Link href="/contact">Contacto</Link>
+            <Link legacyBehavior href="/contact">Contacto</Link>
           </li>
         </ul>
       </nav>

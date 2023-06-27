@@ -25,7 +25,7 @@ const Footer = ({ container, footerBg, textCenter }) => {
               <div className="col-xl-3 col-lg-5 col-md-6 ">
                 <div className="footer-widget mb-40">
                   <div className="footer-logo">
-                    <Link href="/">
+                    <Link legacyBehavior href="/">
                       <a>
                         <Image src={Logo} alt="Logo" />
                       </a>
@@ -73,17 +73,17 @@ const Footer = ({ container, footerBg, textCenter }) => {
                   <h3>Menu</h3>
                   <ul className="footer-link">
                     <li>
-                      <Link href="/homeSiim" onClick={(e) => e.preventDefault()}>
+                      <Link legacyBehavior href="/homeSiim" onClick={(e) => e.preventDefault()}>
                         Inicio
                       </Link>
                     </li>
                     <li>
-                      <Link href="/about" onClick={(e) => e.preventDefault()}>
+                      <Link legacyBehavior href="/about" onClick={(e) => e.preventDefault()}>
                         Siim
                       </Link>
                     </li>
                     <li>
-                      <Link href="/shop/col-3" onClick={(e) => e.preventDefault()}>
+                      <Link legacyBehavior href="/shop/col-3" onClick={(e) => e.preventDefault()}>
                         Distribuidora SIIM
                       </Link>
                     </li>
@@ -147,7 +147,7 @@ const Footer = ({ container, footerBg, textCenter }) => {
               <div className="col-xl-3 col-lg-5 col-md-6">
                 <div className="footer-widget mb-40">
                   <div className="footer-banner">
-                    <Link href="/shop">
+                    <Link legacyBehavior href="/shop">
                       <a>
                         <Image src={Banner} alt="Banner" />
                       </a>

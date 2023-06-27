@@ -204,12 +204,12 @@ const BlogDetails = ({ getSingleBlog, getBlog, blogs, blog }) => {
                           {blog.id !== 1 && (
                             <div className="bakix-navigation b-next-post text-left mb-30">
                               <span>
-                                <Link href={`/blog/${blog.id - 1}`}>
+                                <Link legacyBehavior href={`/blog/${blog.id - 1}`}>
                                   <a>Prev Post</a>
                                 </Link>
                               </span>
                               <h4>
-                                <Link href={`/blog/${blog.id - 1}`}>
+                                <Link legacyBehavior href={`/blog/${blog.id - 1}`}>
                                   <a>
                                     {blogs &&
                                       blogs[blog.id - 2] &&
@@ -232,12 +232,12 @@ const BlogDetails = ({ getSingleBlog, getBlog, blogs, blog }) => {
                           {blogs && blogs.length !== blog.id && (
                             <div className="bakix-navigation b-next-post text-left text-md-right  mb-30">
                               <span>
-                                <Link href={`/blog/${blog.id + 1}`}>
+                                <Link legacyBehavior href={`/blog/${blog.id + 1}`}>
                                   <a>Next Post</a>
                                 </Link>
                               </span>
                               <h4>
-                                <Link href={`/blog/${blog.id + 1}`}>
+                                <Link legacyBehavior href={`/blog/${blog.id + 1}`}>
                                   <a>
                                     {blogs && blogs.length !== blog.id
                                       ? blogs[blog.id].title.slice(0, 20)

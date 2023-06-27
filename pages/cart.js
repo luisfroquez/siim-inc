@@ -140,7 +140,7 @@ const Cart = ({ removeCart, addToCart, decreaseCart }) => {
                             </form>
                           </div>
                           <div className="coupon2">
-                            <Link href="/checkout">
+                            <Link legacyBehavior href="/checkout">
                               <a className="btn theme-btn">Enviar</a>
                             </Link>
                           </div>
@@ -159,7 +159,7 @@ const Cart = ({ removeCart, addToCart, decreaseCart }) => {
                               Total <span>${totalPrice(carts)}</span>
                             </li>
                           </ul>
-                          <Link href="/checkout">
+                          <Link legacyBehavior href="/checkout">
                             <a className="btn theme-btn">Proceder a Pagar</a>
                           </Link>
                         </div>

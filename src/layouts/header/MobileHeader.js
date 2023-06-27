@@ -33,30 +33,30 @@ const MobileHeader = () => {
         <nav className={`mean-nav mobile-header ${mainHeader ? "block" : ""}`}>
           <ul>
             <li>
-              <Link href="/">
+              <Link legacyBehavior href="/">
                 <a>Home</a>
               </Link>
             </li>
             <li className="mega-menu">
-              <Link href="/shop/col-3">Tienda</Link>
+              <Link legacyBehavior href="/shop/col-3">Tienda</Link>
               <ul className={`submenu ${subMenu === "shop" ? "block" : ""}`}>
                 <li>
                   <a href="#">Category View</a>
                   <ul className={`submenu ${multiMenu === "1" ? "block" : ""}`}>
                     <li>
-                      <Link href="/shop">Shop 2 Column</Link>
+                      <Link legacyBehavior href="/shop">Shop 2 Column</Link>
                     </li>
                     <li>
-                      <Link href="/products">Shop Filter Style</Link>
+                      <Link legacyBehavior href="/products">Shop Filter Style</Link>
                     </li>
                     <li>
-                      <Link href="/products">Shop Full</Link>
+                      <Link legacyBehavior href="/products">Shop Full</Link>
                     </li>
                     <li>
-                      <Link href="/shop/col-3">Shop 3 Column</Link>
+                      <Link legacyBehavior href="/shop/col-3">Shop 3 Column</Link>
                     </li>
                     <li>
-                      <Link href="/shop/list">List View</Link>
+                      <Link legacyBehavior href="/shop/list">List View</Link>
                     </li>
                   </ul>
                   <a
@@ -76,19 +76,19 @@ const MobileHeader = () => {
                   </a>
                   <ul className={`submenu ${multiMenu === "2" ? "block" : ""}`}>
                     <li>
-                      <Link href="/shop/left-sidebar">Sidebar Left</Link>
+                      <Link legacyBehavior href="/shop/left-sidebar">Sidebar Left</Link>
                     </li>
                     <li>
-                      <Link href="/shop/sidebar-right">Sidebar Right</Link>
+                      <Link legacyBehavior href="/shop/sidebar-right">Sidebar Right</Link>
                     </li>
                     <li>
-                      <Link href="/cart">Shopping Cart</Link>
+                      <Link legacyBehavior href="/cart">Shopping Cart</Link>
                     </li>
                     <li>
-                      <Link href="/checkout">Checkout</Link>
+                      <Link legacyBehavior href="/checkout">Checkout</Link>
                     </li>
                     <li>
-                      <Link href="/wishlist">My Wishlist</Link>
+                      <Link legacyBehavior href="/wishlist">My Wishlist</Link>
                     </li>
                   </ul>
                   <a
@@ -106,19 +106,19 @@ const MobileHeader = () => {
                   <a href="#">Products Types</a>
                   <ul className={`submenu ${multiMenu === "3" ? "block" : ""}`}>
                     <li>
-                      <Link href="/shop/1">Simple Product</Link>
+                      <Link legacyBehavior href="/shop/1">Simple Product</Link>
                     </li>
                     <li>
-                      <Link href="/shop/19">Variable Product</Link>
+                      <Link legacyBehavior href="/shop/19">Variable Product</Link>
                     </li>
                     <li>
-                      <Link href="/shop/upcoming/16">Product Upcoming</Link>
+                      <Link legacyBehavior href="/shop/upcoming/16">Product Upcoming</Link>
                     </li>
                     <li>
-                      <Link href="/shop/up-thumb/16">Thumb Top Product</Link>
+                      <Link legacyBehavior href="/shop/up-thumb/16">Thumb Top Product</Link>
                     </li>
                     <li>
-                      <Link href="/compare">Compare</Link>
+                      <Link legacyBehavior href="/compare">Compare</Link>
                     </li>
                   </ul>
                   <a
@@ -135,11 +135,11 @@ const MobileHeader = () => {
               </ul>
             </li>
             <li>
-              <Link href="/about">Nosotros</Link>
+              <Link legacyBehavior href="/about">Nosotros</Link>
             </li>
             
             <li className="mean-last">
-              <Link href="/contact">Contacto</Link>
+              <Link legacyBehavior href="/contact">Contacto</Link>
             </li>
           </ul>
         </nav>

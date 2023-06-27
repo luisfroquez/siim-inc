@@ -31,7 +31,7 @@ const PageTitle = ({ pageHeading, active, thankupage, id }) => {
               )}
               <ul className="breadcrumb-menu">
                 <li>
-                  <Link href="/">
+                  <Link legacyBehavior href="/">
                     <a>Inicio</a>
                   </Link>
                 </li>

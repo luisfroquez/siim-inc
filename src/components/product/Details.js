@@ -466,7 +466,7 @@ const Details = ({
               </div>
               <div className="col-xl-4 col-lg-4">
                 <div className="pro-details-banner">
-                  <Link href="/shop">
+                  <Link legacyBehavior href="/shop">
                     <img src="/img/banner/pro-details.jpg" alt="img" />
                   </Link>
                 </div>

@@ -11,7 +11,7 @@ const WishListIcon = ({ getWishlist }) => {
   return (
     <div className="wishlist-container">
       <div className="bg"></div>
-      <Link href="/wishlist">
+      <Link legacyBehavior href="/wishlist">
         <a className="icon">
           <i
             className={`fas fa-heart  ${
