@@ -12,7 +12,6 @@
 @import "../public/css/responsive.css";
 @import "../public/css/custom.css";
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
