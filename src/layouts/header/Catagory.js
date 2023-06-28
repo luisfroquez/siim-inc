@@ -26,7 +26,7 @@ const Catagory = ({ whiteMenu }) => {
         </div>
       </div> */}
       <div className="logo mt-1">
-        <Link href="/">
+        <Link legacyBehavior href="/">
           <a>
             <img
               src={
@@ -45,7 +45,7 @@ const Catagory = ({ whiteMenu }) => {
           {category &&
             category.map((category) => (
               <li key={category}>
-                <Link href="/shop">
+                <Link legacyBehavior href="/shop">
                   <a className="text-capitalize">
                     <i className="flaticon-shopping-cart" /> {category}
                   </a>

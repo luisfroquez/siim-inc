@@ -12,7 +12,7 @@ const Blog = ({ blog, active, sort, extraClass, column, id }) => {
     >
       <article className="postbox post format-image mb-40">
         <div className="postbox__thumb">
-          <Link href={`/blog/${blog.id}`}>
+          <Link legacyBehavior href={`/blog/${blog.id}`}>
             <a>
               <img src={blog.img} alt="blog image" />
             </a>
@@ -34,7 +34,7 @@ const Blog = ({ blog, active, sort, extraClass, column, id }) => {
             </span>
           </div>
           <h3 className="blog-title blog-title-sm">
-            <Link href={`/blog/${blog.id}`}>
+            <Link legacyBehavior href={`/blog/${blog.id}`}>
               <a>{blog.title}</a>
             </Link>
           </h3>
@@ -42,7 +42,7 @@ const Blog = ({ blog, active, sort, extraClass, column, id }) => {
             <p>{blog.des && blog.des.div.p[1].slice(1, 322)}</p>
           </div>
           <div className="read-more">
-            <Link href={`/blog/${blog.id}`}>
+            <Link legacyBehavior href={`/blog/${blog.id}`}>
               <a className="read-more">
                 read more <i className="flaticon-right-arrow" />
               </a>

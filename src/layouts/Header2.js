@@ -16,7 +16,7 @@ const Header2 = () => {
             </div> */}
             <div className="col-xl-4 col-lg-5 col-md-4 col-5">
               <div className="logo text-left text-md-center">
-                <Link href="/shop">
+                <Link legacyBehavior href="/shop">
                   <a>
                     <img src="img/logo/logoAzulSiim.png" alt="img" />  {/*  width={90}  */}
                   </a>
@@ -28,7 +28,7 @@ const Header2 = () => {
                 <ul>
                   <SearchTrigger />
                   <li className="login-btn">
-                    <Link href="/login">
+                    <Link legacyBehavior href="/login">
                       <a>
                         <i className="far fa-user" />
                       </a>

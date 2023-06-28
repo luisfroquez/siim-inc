@@ -6,7 +6,7 @@ const Banner = ({ banner }) => {
         <div className="row">
           <div className="col-lg-6 col-md-12">
             <div className="banner-2 pos-relative mb-30">
-              <Link href="/about">
+              <Link legacyBehavior href="/about">
                 <a>
                   <img src={banner && banner.one.img} alt="Banner image" />
                 </a>
@@ -15,14 +15,14 @@ const Banner = ({ banner }) => {
               <div className="banner-trend">
                 <span>{banner && banner.one.subTitle}</span>
                 <h2>
-                  <Link href="/about">
+                  <Link legacyBehavior href="/about">
                     <a>
                       {banner && banner.one.title}
                     </a>
                   </Link>
                 </h2>
                 <div className="">
-                  <Link href="/about">
+                  <Link legacyBehavior href="/about">
                     <a className="btn theme-btn">{banner && banner.one.link}</a>
                   </Link>
                 </div>
@@ -32,7 +32,7 @@ const Banner = ({ banner }) => {
 
           <div className="col-lg-6 col-md-12">
             <div className="banner-2 pos-relative mb-30">
-              <Link href="/shop/col-3">
+              <Link legacyBehavior href="/shop/col-3">
                 <a>
                   <img src={banner && banner.two.img} alt="Banner" />
                 </a>
@@ -41,14 +41,14 @@ const Banner = ({ banner }) => {
               <div className="banner-look">
                 <span>{banner && banner.two.subTitle}</span>
                 <h2>
-                <Link href="/shop/col-3">
+                <Link legacyBehavior href="/shop/col-3">
                     <a>
                     {banner && banner.two.title}
                     </a>
                   </Link>
                 </h2>
                 {/* <p>{banner && banner.two.text}</p> */}
-                <Link href="/shop/col-3">
+                <Link legacyBehavior href="/shop/col-3">
                   <a className="btn theme-btn izq">{banner && banner.two.link}</a>
                 </Link>
               </div>

@@ -38,7 +38,7 @@ const UpcomingProduct = ({ upcomingProduct }) => {
             <div className="upcoming-product">
               <div className="upc-price">$500.00</div>
               <h1>
-                <Link href="/product-details">
+                <Link legacyBehavior href="/product-details">
                   <a>Lodge Flush Mount</a>
                 </Link>
               </h1>
@@ -74,7 +74,7 @@ const UpcomingProduct = ({ upcomingProduct }) => {
                 nulla.
               </p>
               <div className="upc-btn">
-                <Link href="/shop">
+                <Link legacyBehavior href="/shop">
                   <a
                     className="btn theme-btn"
                     data-animation="fadeInLeft"
@@ -83,7 +83,7 @@ const UpcomingProduct = ({ upcomingProduct }) => {
                     shop now
                   </a>
                 </Link>
-                <Link href="/shop">
+                <Link legacyBehavior href="/shop">
                   <a
                     className="btn white-btn"
                     data-animation="fadeInRight"

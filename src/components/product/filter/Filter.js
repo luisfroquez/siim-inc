@@ -135,7 +135,7 @@ const Filter = ({
                   i < 3 && (
                     <li key={product.id}>
                       <div className="side-pro-img">
-                        <Link href={`/shop/${product.id}`}>
+                        <Link legacyBehavior href={`/shop/${product.id}`}>
                           <img src={product.img2} alt="Product" />
                         </Link>
                       </div>
@@ -148,7 +148,7 @@ const Filter = ({
                           <i className="fas fa-star" />
                         </div>
                         <h5>
-                          <Link href={`/shop/${product.id}`}>
+                          <Link legacyBehavior href={`/shop/${product.id}`}>
                             {product.name}
                           </Link>
                         </h5>
@@ -165,7 +165,7 @@ const Filter = ({
         </div>
         <div className="shop-widget">
           <div className="shop-sidebar-banner">
-            <Link href="/shop">
+            <Link legacyBehavior href="/shop">
               <img src="/img/bg/extintor.png" alt="Banner" />
             </Link>
           </div>

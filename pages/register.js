@@ -77,7 +77,7 @@ const Register = () => {
                         <div className="or-divide">
                           <span>or</span>
                         </div>
-                        <Link href="/login">
+                        <Link legacyBehavior href="/login">
                           <a className="btn theme-btn w-100">Login Now</a>
                         </Link>
                       </form>

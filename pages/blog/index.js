@@ -56,7 +56,7 @@ const Blog = ({ getBlog, blogs }) => {
                         </div>
                       ) : (
                         <div className="postbox__thumb">
-                          <Link href={`/blog/${blog.id}`}>
+                          <Link legacyBehavior href={`/blog/${blog.id}`}>
                             <img src={blog.img} alt="blog image" />
                           </Link>
                         </div>
@@ -81,7 +81,7 @@ const Blog = ({ getBlog, blogs }) => {
                           </span>
                         </div>
                         <h3 className="blog-title">
-                          <Link href={`/blog/${blog.id}`}>
+                          <Link legacyBehavior href={`/blog/${blog.id}`}>
                             <a>{blog.title}</a>
                           </Link>
                         </h3>
@@ -91,7 +91,7 @@ const Blog = ({ getBlog, blogs }) => {
                           )}
                         </div>
                         <div className="read-more mt-30">
-                          <Link href={`/blog/${blog.id}`}>
+                          <Link legacyBehavior href={`/blog/${blog.id}`}>
                             <a className="btn theme-btn">read more</a>
                           </Link>
                         </div>

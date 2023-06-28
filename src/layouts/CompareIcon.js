@@ -11,7 +11,7 @@ const CompareIcon = ({ getCompare }) => {
   return (
     <div className="wishlist-container compare">
       <div className="bg"></div>
-      <Link href="/compare">
+      <Link legacyBehavior href="/compare">
         <a className="icon">
           <i
             className={`flaticon-compare ${

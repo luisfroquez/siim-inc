@@ -38,7 +38,7 @@ const ProductListView = ({ product, col5, addToCart, addWishlist }) => {
       <div className={`col-xl-${col5 ? 5 : 4} col-lg-${col5 ? 5 : 4}`}>
         <div className="product-wrapper mb-30">
           <div className="product-img">
-            <Link href={`/shop/${product.id}`}>
+            <Link legacyBehavior href={`/shop/${product.id}`}>
               <a>
                 <img src={product.img1} alt="img 1" />
                 <img
@@ -58,11 +58,11 @@ const ProductListView = ({ product, col5, addToCart, addWishlist }) => {
       <div className={`col-xl-${col5 ? 7 : 8} col-lg-${col5 ? 7 : 8}`}>
         <div className="product-content pro-list-content pr-0 mb-50">
           <div className="pro-cat mb-10">
-            <Link href={`/shop/${product.id}`}>decor, </Link>
-            <Link href={`/shop/${product.id}`}>{product.brand}</Link>
+            <Link legacyBehavior href={`/shop/${product.id}`}>decor, </Link>
+            <Link legacyBehavior href={`/shop/${product.id}`}>{product.brand}</Link>
           </div>
           <h4>
-            <Link href={`/shop/${product.id}`}>{product.name}</Link>
+            <Link legacyBehavior href={`/shop/${product.id}`}>{product.name}</Link>
           </h4>
           <div className="product-meta mb-10">
             <div className="pro-price">

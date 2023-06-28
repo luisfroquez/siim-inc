@@ -80,7 +80,7 @@ const Login = () => {
                         <div className="or-divide">
                           <span>or</span>
                         </div>
-                        <Link href="/register">
+                        <Link legacyBehavior href="/register">
                           <a className="btn theme-btn w-100">Registrar ahora</a>
                         </Link>
                       </form>

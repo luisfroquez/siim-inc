@@ -40,7 +40,7 @@ const BlogSideBar = ({ blog, blogs }) => {
                 }`}
               >
                 <div className="widget-posts-image">
-                  <Link href={`/blog/${b.id}`}>
+                  <Link legacyBehavior href={`/blog/${b.id}`}>
                     <a>
                       <img src={b.img} alt="blog" />
                     </a>
@@ -48,7 +48,7 @@ const BlogSideBar = ({ blog, blogs }) => {
                 </div>
                 <div className="widget-posts-body">
                   <h6 className="widget-posts-title">
-                    <Link href={`/blog/${b.id}`}>
+                    <Link legacyBehavior href={`/blog/${b.id}`}>
                       <a>{b.title.slice(0, 35)}</a>
                     </Link>
                   </h6>

@@ -40,13 +40,13 @@ const Index = ({
                            <img src={topSeller[0].topProduct.img} alt="Product" width={145} className="mb-10" />
                         </div>
                         <h2>
-                          <Link href="/about">
+                          <Link legacyBehavior href="/about">
                             <a>{topSeller[0].topProduct.name}</a>
                           </Link>
                         </h2>
                         
                         <div className="top-seller-btn mb-40 mt-20">
-                          <Link href="/about">
+                          <Link legacyBehavior href="/about">
                             <a className="btn theme-btn">Visitar nuestra página</a>
                           </Link>
                         </div>
@@ -64,13 +64,13 @@ const Index = ({
                         </div>
                         {/* <img src={topSeller[0].topProduct.img} alt="Product" /> */}
                         <h2>
-                          <Link href="/homesiim">
+                          <Link legacyBehavior href="/homesiim">
                             <a>{topSeller[0].name}</a>
                           </Link>
                         </h2>
                         
                         <div className="top-seller-btn mb-40 mt-20">
-                          <Link href="/homeSiim">
+                          <Link legacyBehavior href="/homeSiim">
                             <a className="btn theme-btn">Visitar nuestra distribuidora</a>
                           </Link>
                         </div>

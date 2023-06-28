@@ -75,7 +75,7 @@ const Product = ({
       />
 
       <div className="product-img mb-25">
-        <Link href={`/shop/${product.id}`}>
+        <Link legacyBehavior href={`/shop/${product.id}`}>
           <a>
             <img src={product.img1} alt="img 1" />
             <img className="secondary-img" src={product.img2} alt="imge 2" />
@@ -118,11 +118,11 @@ const Product = ({
       </div>
       <div className="product-content">
         <div className="pro-cat mb-10">
-          {/* <Link href={`/shop/${product.id}`}>decor, </Link> */}
-          <Link href={`/shop/${product.id}`}>{product.brand}</Link>
+          {/* <Link legacyBehavior href={`/shop/${product.id}`}>decor, </Link> */}
+          <Link legacyBehavior href={`/shop/${product.id}`}>{product.brand}</Link>
         </div>
         <h4>
-          <Link href={`/shop/${product.id}`}>{product.name}</Link>
+          <Link legacyBehavior href={`/shop/${product.id}`}>{product.name}</Link>
         </h4>
         <div className="product-meta">
           <div className="pro-price">

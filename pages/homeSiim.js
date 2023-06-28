@@ -43,7 +43,7 @@ const Index4 = ({
         <section className="slider-area pos-relative">
           <div className="slider-active">
             <HomeSlider sliders={sliders}>
-              {sliders &&
+              { sliders &&
                 sliders.map((slide, i) => (
                   <div
                     key={i}
@@ -54,7 +54,7 @@ const Index4 = ({
                       className="shape-title shape-title-4 bounce-animate"
                       style={{ zIndex: "unset" }}
                     >
-                      {/* <h2>{new Date().getFullYear()}</h2> */}
+                      <h2>{new Date().getFullYear()}</h2>
                       <h2>SIIM </h2>
                     </div>
                     <div className="shape-icon shape-icon-4 bounce-animate">
@@ -69,7 +69,7 @@ const Index4 = ({
                             </h1>
                             <div className="slide-btn">
                               {slide.shopLink && (
-                                <Link href="/about">
+                                <Link legacyBehavior href="/about">
                                   <a
                                     className="btn theme-btn"
                                     data-animation="fadeInLeft"
@@ -80,7 +80,7 @@ const Index4 = ({
                                 </Link>
                               )}
                               {slide.categoryLink && (
-                                <Link href="/shop/col-3">
+                                <Link legacyBehavior href="/shop/col-3">
                                   <a
                                     className="btn white-btn"
                                     data-animation="fadeInRight"
@@ -101,7 +101,7 @@ const Index4 = ({
           </div>
         </section>
 
-        <Banner banner={banner} />
+        {/* <Banner banner={banner} /> */}
         <HomePageProducts products={products} />
 
         
@@ -120,7 +120,7 @@ const mapSateToProps = (state) => ({
   features: state.features,
   sliders: state.home.home4 && state.home.home4.sliders,
   imageSlider: state.home.home4 && state.home.home4.imageSlider,
- /*  blogs: filterBlog("man", state.blog.blogs), */
+  /*  blogs: filterBlog("man", state.blog.blogs), */
   products: state.product.products,
 });
 

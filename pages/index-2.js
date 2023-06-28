@@ -81,7 +81,7 @@ const Index2 = ({
                             </div>
                             <div className="slide-btn">
                               {slide.shopLink && (
-                                <Link href="/shop">
+                                <Link legacyBehavior href="/shop">
                                   <a
                                     className="btn theme-btn"
                                     data-animation="fadeInLeft"
@@ -92,7 +92,7 @@ const Index2 = ({
                                 </Link>
                               )}
                               {slide.categoryLink && (
-                                <Link href="/shop">
+                                <Link legacyBehavior href="/shop">
                                   <a
                                     className="btn white-btn"
                                     data-animation="fadeInRight"

@@ -39,7 +39,7 @@ const Blogs = ({ blogs, container }) => {
                       </span>
                     </div>
                     <h2>
-                      <Link href={`/blog/${blog.id}`}>
+                      <Link legacyBehavior href={`/blog/${blog.id}`}>
                         <a>{blog.title}</a>
                       </Link>
                     </h2>
