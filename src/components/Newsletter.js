@@ -37,7 +37,7 @@ const Newsletter = ({ container }) => {
                    {/*  <button className="btn theme-btn" type="submit">
                       Subscribir ahora
                     </button> */}
-                    <Link href="/about">
+                    <Link legacyBehavior href="/about">
                        <a
                          className="btn theme-btn"
                          data-animation="fadeInLeft"

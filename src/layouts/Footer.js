@@ -25,12 +25,12 @@ const Footer = ({ container, footerBg, textCenter }) => {
               <div className="col-xl-3 col-lg-5 col-md-6 ">
                 <div className="footer-widget mb-40">
                   <div className="footer-logo">
-                   {/*  <Link href="/">
+                   {/*  <Link legacyBehavior href="/">
                       <a>
                         <Image src={Logo} alt="Logo" />
                       </a>
                     </Link> */}
-                     <Link href="/">
+                     <Link legacyBehavior href="/">
                       <a>
                         <img
                           src={

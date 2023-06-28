@@ -33,12 +33,12 @@ const MobileHeader = () => {
         <nav className={`mean-nav mobile-header ${mainHeader ? "block" : ""}`}>
           <ul>
             <li>
-              <Link href="/">
+              <Link legacyBehavior href="/">
                 <a>Inicio</a>
               </Link>
             </li>
             <li className="mega-menu">
-              <Link href="/shop/col-3">Distribuidora</Link>
+              <Link legacyBehavior href="/shop/col-3">Distribuidora</Link>
               <ul className={`submenu ${subMenu === "shop" ? "block" : ""}`}>
                 <li>
                   <a href="#">Category View</a>
@@ -135,7 +135,7 @@ const MobileHeader = () => {
               </ul>
             </li>
             <li>
-              <Link href="/about">SIIM</Link>
+              <Link legacyBehavior href="/about">SIIM</Link>
             </li>
             
             <li className="mean-last">
