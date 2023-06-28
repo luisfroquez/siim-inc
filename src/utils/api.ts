@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { SHA256 } from "crypto-js";
-import objectToQueryParams  from "./objectToQueryParams"
+import objectToQueryParams from "./objectToQueryParams"
 
 const utcTimestamp = new Date().toISOString();
 
@@ -16,7 +16,7 @@ const token = `apiKey=${process.env.NEXT_PUBLIC_API_KEY}&utcTimeStamp=${utcTimes
 
 export const fetchApiData = async (endpoint, queryParams) => {
 
-    const hasQueryParams = Object.entries(queryParams).length > 0;
+    const hasQueryParams = Object.entries(queryParams ?? {})?.length > 0;
 
     const query = hasQueryParams ? `?${objectToQueryParams(queryParams)}` : "";
 
