@@ -15,7 +15,7 @@ const About = () => {
     slidesToScroll: 1,
   };
   return (
-    <Layout sticky footerBg textCenter container transparent  whiteMenu>
+    <Layout textCenter container transparent  whiteMenu>
       <main>
         <PageTitle pageHeading="SIIM" active="Nosotros" />
         {popup && <VideoPopUp closePopup={() => setPopup(false)} />}

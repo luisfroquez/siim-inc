@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import Banner from "../../public/img/banner/fotoFooter.png";
-import Time from "../../public/img/icon/time.png";
-import Logo from "../../public/img/logo/logoFooter.png";
+/* import Time from "../../public/img/icon/time.png"; */
+/* import Logo from "../../public/img/logo/logoFooter.png"; */
 const Footer = ({ container, footerBg, textCenter }) => {
   return (
     <footer>
@@ -25,9 +25,20 @@ const Footer = ({ container, footerBg, textCenter }) => {
               <div className="col-xl-3 col-lg-5 col-md-6 ">
                 <div className="footer-widget mb-40">
                   <div className="footer-logo">
-                    <Link href="/">
+                   {/*  <Link href="/">
                       <a>
                         <Image src={Logo} alt="Logo" />
+                      </a>
+                    </Link> */}
+                     <Link href="/">
+                      <a>
+                        <img
+                          src={
+                            footerBg ? "/img/logo/logoAzulSiim.png" : "/img/logo/logoSIIM.png"
+                          }
+                          alt="Logo"
+                          width={235}
+                        />
                       </a>
                     </Link>
                   </div>

@@ -1493,7 +1493,95 @@
 
 /* Large Mobile :480px. */
 
-@media only screen and (min-width: 560px) and (max-width: 767px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+	.btn {
+
+		background: transparent;
+	
+		border: 0;
+	
+		border-radius: 0;
+	
+		color: #525470;
+	
+		display: inline-block;
+	
+		font-size: 10px;
+	
+		font-weight: 500;
+	
+		letter-spacing: 1px;
+	
+		line-height: 1;
+	
+		margin-bottom: 0;
+	
+		padding: 22px 20px;
+	
+		text-align: center;
+	
+		text-transform: uppercase;
+	
+		touch-action: manipulation;
+	
+		transition: all 0.3s ease 0s;
+	
+		vertical-align: middle;
+	
+		white-space: nowrap;
+	
+	}	
+
+	.top-seller-content h2 {
+		font-size: 20px;
+	}
+
+	.top-seller-btn{
+		margin-bottom: 20px;
+	}
+
+	.logoLanding{
+		width: 110px;
+	}
+
+	.top-seller-content{
+		padding: 15px;
+	}
+
+	
+
+.theme-btn{
+	background: #E50714;
+	border-radius: 5px;
+	color: #fff;
+}
+
+
+.white-btn{
+    color: #fff;
+	background: #0149D3;
+	border-radius: 5px;
+
+}
+
+.white-btn:hover{
+
+	background: #337AFF;
+
+	color: #fff;
+
+}
+
+.slider-active button.slick-arrow {
+	height: 40px;
+    width: 40px;
+	
+}
+
+.slider-active button.slick-arrow {
+	line-height: 1px;
+}
 
 .header-right ul li.login-btn{
 
@@ -1556,4 +1644,5 @@
 
 
 }
+
 

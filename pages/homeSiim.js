@@ -36,7 +36,7 @@ const Index4 = ({
   }, []);
   return (
     <Layout
-      
+      footerBg
       extraTransparentClass={"transparent-header-2"}
     >
       <main>
@@ -104,7 +104,7 @@ const Index4 = ({
         <Banner banner={banner} />
         <HomePageProducts products={products} />
 
-        {/* */}
+        
         <Newsletter className="mb-25"  />
 
         {/* <Features features={features} /> */}

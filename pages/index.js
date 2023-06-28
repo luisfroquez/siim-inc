@@ -32,7 +32,7 @@ const Index = ({
           <section className="top-seller-area">   {/*  box-90 */}
             <div className="container-fluid">              
               <div className="row">
-                <div className="col-xl-6 col-lg-6 backingRoof  d-flex align-items-center">
+                <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 backingRoof  d-flex align-items-center">
                   <div className="top-seller" >                   
                     <div className="seller-box text-center">
                       <div className="top-seller-content text-left" style={{borderRadius:5}}>
@@ -55,7 +55,7 @@ const Index = ({
                   </div>
                 </div>
                 
-                <div className="col-xl-6 col-lg-6 backingImge d-flex align-items-center">
+                <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 backingImge d-flex align-items-center">
                   <div className="top-seller">
                     <div className="seller-box text-center">
                       <div className="top-seller-content text-left" style={{borderRadius:5}}>

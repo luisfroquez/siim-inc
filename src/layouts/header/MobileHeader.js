@@ -34,11 +34,11 @@ const MobileHeader = () => {
           <ul>
             <li>
               <Link href="/">
-                <a>Home</a>
+                <a>Inicio</a>
               </Link>
             </li>
             <li className="mega-menu">
-              <Link href="/shop/col-3">Tienda</Link>
+              <Link href="/shop/col-3">Distribuidora</Link>
               <ul className={`submenu ${subMenu === "shop" ? "block" : ""}`}>
                 <li>
                   <a href="#">Category View</a>
@@ -135,7 +135,7 @@ const MobileHeader = () => {
               </ul>
             </li>
             <li>
-              <Link href="/about">Nosotros</Link>
+              <Link href="/about">SIIM</Link>
             </li>
             
             <li className="mean-last">
